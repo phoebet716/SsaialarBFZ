@@ -1,7 +1,6 @@
 "module: dynamo":
 - torch/_dynamo/**
 - torch/csrc/dynamo/**
-- benchmarks/dynamo/**
 - test/dynamo/**
 
 "module: inductor":
@@ -12,7 +11,6 @@
 - torch/_dynamo/**
 - torch/_inductor/**
 - benchmarks/dynamo/**
-- torch/_subclasses/fake_tensor.py
 - torch/_subclasses/fake_utils.py
 - torch/_subclasses/meta_utils.py
 - test/distributed/test_dynamo_distributed.py
@@ -36,7 +34,6 @@
 - caffe2/python/ideep/**
 - cmake/Modules/FindMKLDNN.cmake
 - third_party/mkl-dnn.BUILD
-- torch/csrc/jit/codegen/onednn/**
 - test/test_jit_llga_fuser.py
 
 "module: amp (automated mixed precision)":
